@@ -13,6 +13,7 @@ repositories {
 spotless {
     java {
         palantirJavaFormat("2.40.0")
+        endWithNewline()
     }
 }
 
