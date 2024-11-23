@@ -1,6 +1,7 @@
 package com.clarity.autoconfigure;
 
 import com.clarity.domain.annotations.UseCase;
+import com.clarity.infrastructure.annotations.PersistenceRepository;
 import java.lang.annotation.Annotation;
 import java.util.Set;
 import org.reflections.Reflections;
@@ -14,6 +15,7 @@ public class CustomAnnotationsBeanRegistrar implements ImportBeanDefinitionRegis
 
   private static final Class<? extends Annotation>[] ANNOTATIONS_TO_SCAN = new Class[]{
       UseCase.class,
+      PersistenceRepository.class
   };
 
   @Override

@@ -1,9 +1,9 @@
 package com.clarity.autoconfigure.fixture;
 
-import com.clarity.domain.annotations.UseCase;
+import com.clarity.infrastructure.annotations.PersistenceRepository;
 
-@UseCase
-public class MyUseCase {
+@PersistenceRepository
+public class MyPersistenceRepository {
   public String sayHello() {
     return "Hello from %s!".formatted(this.getClass().getSimpleName());
   }
