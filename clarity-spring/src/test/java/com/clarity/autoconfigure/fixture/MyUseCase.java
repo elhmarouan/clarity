@@ -1,6 +1,6 @@
 package com.clarity.autoconfigure.fixture;
 
-import com.clarity.domain.annotations.UseCase;
+import com.clarity.domain.UseCase;
 
 @UseCase
 public class MyUseCase {

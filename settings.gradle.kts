@@ -1,3 +1,2 @@
 rootProject.name = "clarity"
-include("clarity-core", "clarity-spring")
-include("clarity-bom")
+include("clarity-core", "clarity-spring", "clarity-bom")

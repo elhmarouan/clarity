@@ -1,7 +1,7 @@
 package com.clarity.autoconfigure;
 
-import com.clarity.domain.annotations.UseCase;
-import com.clarity.infrastructure.annotations.PersistenceRepository;
+import com.clarity.domain.UseCase;
+import com.clarity.infrastructure.persistence.PersistenceRepository;
 import java.lang.annotation.Annotation;
 import java.util.Set;
 import org.reflections.Reflections;

@@ -1,6 +1,6 @@
 package com.clarity.autoconfigure.fixture;
 
-import com.clarity.infrastructure.annotations.PersistenceRepository;
+import com.clarity.infrastructure.persistence.PersistenceRepository;
 
 @PersistenceRepository
 public class MyPersistenceRepository {
