@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/clarity-bom" />
             <option value="$PROJECT_DIR$/clarity-core" />
+            <option value="$PROJECT_DIR$/clarity-pilot" />
             <option value="$PROJECT_DIR$/clarity-spring" />
           </set>
         </option>
