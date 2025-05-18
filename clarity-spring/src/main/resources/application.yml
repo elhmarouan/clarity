@@ -1,0 +1,4 @@
+clarity:
+  scan:
+    annotations: com.clarity.domain.UseCase, com.clarity.infrastructure.persistence.PersistenceRepository
+    base-package: com.clarity

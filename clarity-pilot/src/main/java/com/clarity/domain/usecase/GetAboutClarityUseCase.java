@@ -1,7 +1,7 @@
-package clarity.domain.usecase;
+package com.clarity.domain.usecase;
 
-import clarity.domain.model.AboutClarity;
-import clarity.domain.repository.AboutClarityRepository;
+import com.clarity.domain.model.AboutClarity;
+import com.clarity.domain.repository.AboutClarityRepository;
 import com.clarity.domain.UseCase;
 
 @UseCase

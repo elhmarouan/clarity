@@ -1,8 +1,7 @@
-package clarity.infrastructure.persistence;
+package com.clarity.infrastructure.persistence;
 
-import clarity.domain.model.AboutClarity;
-import clarity.domain.repository.AboutClarityRepository;
-import com.clarity.infrastructure.persistence.PersistenceRepository;
+import com.clarity.domain.model.AboutClarity;
+import com.clarity.domain.repository.AboutClarityRepository;
 
 @PersistenceRepository
 public class AboutClarityInMemoryRepository implements AboutClarityRepository {

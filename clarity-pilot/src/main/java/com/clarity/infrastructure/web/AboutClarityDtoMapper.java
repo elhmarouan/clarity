@@ -1,7 +1,6 @@
-package clarity.infrastructure.web;
+package com.clarity.infrastructure.web;
 
-import clarity.domain.model.AboutClarity;
-import com.clarity.infrastructure.web.DtoMapper;
+import com.clarity.domain.model.AboutClarity;
 
 @DtoMapper
 public class AboutClarityDtoMapper {

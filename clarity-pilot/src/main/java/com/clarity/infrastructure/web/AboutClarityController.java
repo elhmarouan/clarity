@@ -1,9 +1,7 @@
-package clarity.infrastructure.web;
+package com.clarity.infrastructure.web;
 
-import static clarity.infrastructure.web.AboutClarityDtoMapper.toDto;
-
-import clarity.domain.model.AboutClarity;
-import clarity.domain.usecase.GetAboutClarityUseCase;
+import com.clarity.domain.model.AboutClarity;
+import com.clarity.domain.usecase.GetAboutClarityUseCase;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -20,6 +18,6 @@ public class AboutClarityController {
   @GetMapping("/about")
   public AboutClarityDto getAbout() {
     final AboutClarity aboutClarity = useCase.process();
-    return toDto(aboutClarity);
+    return AboutClarityDtoMapper.toDto(aboutClarity);
   }
 }

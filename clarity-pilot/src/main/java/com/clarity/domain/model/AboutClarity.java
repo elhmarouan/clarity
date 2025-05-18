@@ -1,4 +1,4 @@
-package clarity.domain.model;
+package com.clarity.domain.model;
 
 import com.clarity.domain.DomainObject;
 
